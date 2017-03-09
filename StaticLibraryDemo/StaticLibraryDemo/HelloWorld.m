@@ -11,8 +11,7 @@
 @implementation HelloWorld
 
 + (void)printHelloWorld {
-    //
-    NSLog(@"Hello world");
+    NSLog(@"Hello world, wellcom to STATIC LIBRARY");
 }
 
 @end

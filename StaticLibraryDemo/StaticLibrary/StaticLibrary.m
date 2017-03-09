@@ -11,7 +11,7 @@
 @implementation StaticLibrary
 
 + (void)hello {
-    NSLog(@"hello");
+    NSLog(@"Hello world, wellcom to STATIC LIBRARY");
 }
 
 @end
