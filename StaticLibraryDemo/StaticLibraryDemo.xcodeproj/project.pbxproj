@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C81E55601E70F8B700539C77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26E1E7006F900E14055 /* ViewController.m */; };
 		C81E55631E70F8C900539C77 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55621E70F8C900539C77 /* HelloWorld.m */; };
 		C81E55641E70F8CC00539C77 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55621E70F8C900539C77 /* HelloWorld.m */; };
+		C81E55731E70FFB200539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55721E70FFB200539C77 /* StaticViewController.m */; };
+		C81E55741E71013600539C77 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55721E70FFB200539C77 /* StaticViewController.m */; };
 		C8A0D2691E7006F900E14055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D2681E7006F900E14055 /* main.m */; };
 		C8A0D26C1E7006F900E14055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26B1E7006F900E14055 /* AppDelegate.m */; };
-		C8A0D26F1E7006F900E14055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26E1E7006F900E14055 /* ViewController.m */; };
 		C8A0D2721E7006F900E14055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A0D2701E7006F900E14055 /* Main.storyboard */; };
 		C8A0D2741E7006F900E14055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A0D2731E7006F900E14055 /* Assets.xcassets */; };
 		C8A0D2771E7006F900E14055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A0D2751E7006F900E14055 /* LaunchScreen.storyboard */; };
@@ -36,12 +36,12 @@
 /* Begin PBXFileReference section */
 		C81E55611E70F8C900539C77 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 		C81E55621E70F8C900539C77 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		C81E55711E70FFB200539C77 /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
+		C81E55721E70FFB200539C77 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
 		C8A0D2641E7006F900E14055 /* StaticLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A0D2681E7006F900E14055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8A0D26A1E7006F900E14055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8A0D26B1E7006F900E14055 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C8A0D26D1E7006F900E14055 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C8A0D26E1E7006F900E14055 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8A0D2711E7006F900E14055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8A0D2731E7006F900E14055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8A0D2761E7006F900E14055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 			children = (
 				C8A0D26A1E7006F900E14055 /* AppDelegate.h */,
 				C8A0D26B1E7006F900E14055 /* AppDelegate.m */,
-				C8A0D26D1E7006F900E14055 /* ViewController.h */,
-				C8A0D26E1E7006F900E14055 /* ViewController.m */,
 				C81E55611E70F8C900539C77 /* HelloWorld.h */,
 				C81E55621E70F8C900539C77 /* HelloWorld.m */,
 				C8A0D2701E7006F900E14055 /* Main.storyboard */,
@@ -128,6 +126,8 @@
 		C8A0D2911E70071100E14055 /* StaticLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				C81E55711E70FFB200539C77 /* StaticViewController.h */,
+				C81E55721E70FFB200539C77 /* StaticViewController.m */,
 				C8A0D2921E70071100E14055 /* StaticLibrary.h */,
 				C8A0D2931E70071100E14055 /* StaticLibrary.m */,
 			);
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A0D26F1E7006F900E14055 /* ViewController.m in Sources */,
+				C81E55741E71013600539C77 /* StaticViewController.m in Sources */,
 				C8A0D26C1E7006F900E14055 /* AppDelegate.m in Sources */,
 				C8A0D2691E7006F900E14055 /* main.m in Sources */,
 				C81E55631E70F8C900539C77 /* HelloWorld.m in Sources */,
@@ -240,8 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E55731E70FFB200539C77 /* StaticViewController.m in Sources */,
 				C81E55641E70F8CC00539C77 /* HelloWorld.m in Sources */,
-				C81E55601E70F8B700539C77 /* ViewController.m in Sources */,
 				C8A0D2941E70071100E14055 /* StaticLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
 				INFOPLIST_FILE = StaticLibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.StaticLibraryDemo;
@@ -373,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8AN3R9Z2W;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/\"";
 				INFOPLIST_FILE = StaticLibraryDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.StaticLibraryDemo;

@@ -6,13 +6,14 @@
 //  Copyright © 2017年 Wilson Yuan. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "StaticViewController.h"
+#import "StaticLibrary.h"
 
-@interface ViewController ()
+@interface StaticViewController ()
 
 @end
 
-@implementation ViewController
+@implementation StaticViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

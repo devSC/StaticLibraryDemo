@@ -10,4 +10,6 @@
 
 @interface StaticLibrary : NSObject
 
++ (void)hello;
+
 @end

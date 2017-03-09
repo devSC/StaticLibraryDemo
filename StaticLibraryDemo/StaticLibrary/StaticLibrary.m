@@ -10,4 +10,8 @@
 
 @implementation StaticLibrary
 
++ (void)hello {
+    NSLog(@"hello");
+}
+
 @end
