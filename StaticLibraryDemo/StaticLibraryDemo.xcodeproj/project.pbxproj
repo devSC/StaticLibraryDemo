@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81E55601E70F8B700539C77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26E1E7006F900E14055 /* ViewController.m */; };
+		C81E55631E70F8C900539C77 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55621E70F8C900539C77 /* HelloWorld.m */; };
+		C81E55641E70F8CC00539C77 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = C81E55621E70F8C900539C77 /* HelloWorld.m */; };
 		C8A0D2691E7006F900E14055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D2681E7006F900E14055 /* main.m */; };
 		C8A0D26C1E7006F900E14055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26B1E7006F900E14055 /* AppDelegate.m */; };
 		C8A0D26F1E7006F900E14055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D26E1E7006F900E14055 /* ViewController.m */; };
@@ -31,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C81E55611E70F8C900539C77 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		C81E55621E70F8C900539C77 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
 		C8A0D2641E7006F900E14055 /* StaticLibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticLibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A0D2681E7006F900E14055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8A0D26A1E7006F900E14055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +97,8 @@
 				C8A0D26B1E7006F900E14055 /* AppDelegate.m */,
 				C8A0D26D1E7006F900E14055 /* ViewController.h */,
 				C8A0D26E1E7006F900E14055 /* ViewController.m */,
+				C81E55611E70F8C900539C77 /* HelloWorld.h */,
+				C81E55621E70F8C900539C77 /* HelloWorld.m */,
 				C8A0D2701E7006F900E14055 /* Main.storyboard */,
 				C8A0D2731E7006F900E14055 /* Assets.xcassets */,
 				C8A0D2751E7006F900E14055 /* LaunchScreen.storyboard */,
@@ -225,6 +232,7 @@
 				C8A0D26F1E7006F900E14055 /* ViewController.m in Sources */,
 				C8A0D26C1E7006F900E14055 /* AppDelegate.m in Sources */,
 				C8A0D2691E7006F900E14055 /* main.m in Sources */,
+				C81E55631E70F8C900539C77 /* HelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E55641E70F8CC00539C77 /* HelloWorld.m in Sources */,
+				C81E55601E70F8B700539C77 /* ViewController.m in Sources */,
 				C8A0D2941E70071100E14055 /* StaticLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +419,7 @@
 				C8A0D2881E7006F900E14055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8A0D2961E70071100E14055 /* Build configuration list for PBXNativeTarget "StaticLibrary" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				C8A0D2981E70071100E14055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
