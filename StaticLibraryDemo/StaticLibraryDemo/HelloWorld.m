@@ -12,7 +12,7 @@
 
 + (void)printHelloWorld {
     //
-    NSLog(@"Hello world");
+    NSLog(@"Hello world develop");
 }
 
 @end
